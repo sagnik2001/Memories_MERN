@@ -1,0 +1,44 @@
+// Server
+
+body parser - body-parser extracts the entire body portion of an incoming request stream and exposes it on req.body.
+
+This body-parser module parses the JSON, buffer, string and URL encoded data submitted using HTTP POST (parse - Js data to js object)
+
+react-file-base64 - to convert files to base64
+
+-->unifiedtopology : DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version.
+To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+
+-->usenewurlparser : DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version.
+To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+
+In mongoose, a schema represents the structure of a particular document, either completely or just a portion of the document.
+It's a way to express expected properties and values as well as constraints and indexes.
+A model defines a programming interface for interacting with the database (read, insert, update, etc).
+
+The save() function is used to save the document to the database.
+
+The findByIdAndUpdate() function is used to find a matching document,
+updates it according to the update arg, passing any options, and returns the found document (if any) to the callback.
+
+The findByIdAndRemove() function is used to find a matching document, remove it, passing the found document (if any) to the callback
+
+The findById() function is used to find a single document by its _id field. The _id field is cast based on the Schema before sending the command.
+
+// Client
+
+Middleware is the suggested way to extend Redux with custom functionality. Middleware lets you wrap the store's dispatch method for fun and profit.
+The key feature of middleware is that it is composable. Multiple middleware can be combined together,
+where each middleware requires no knowledge of what comes before or after it in the chain.
+
+Redux Thunk is a middleware that lets you call action creators that return a function instead of an action object.
+That function receives the store’s dispatch method,
+which is then used to dispatch regular synchronous actions inside the function’s body once the asynchronous operations have been completed.
+
+An action is a plain JavaScript object that has a type field. You can think of an action as an event that describes something that happened in the application.
+
+A reducer is a function that receives the current state and an action object,
+decides how to update the state if necessary, and returns the new state: (state, action) => newState.
+You can think of a reducer as an event listener which handles events based on the received action (event) type.
+
+useSelector = Allows you to extract data from the Redux store state, using a selector function.
